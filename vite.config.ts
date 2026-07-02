@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: process.env.NODE_ENV === 'production' ? '/__Drink_Ordering_System__/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
