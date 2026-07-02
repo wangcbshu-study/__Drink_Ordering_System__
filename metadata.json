@@ -1,0 +1,6 @@
+{
+  "name": "辦公室飲料點單系統",
+  "description": "一個精美的辦公室飲料團購點單系統，整合 Google Sheets API 後端，提供即時菜單與當日訂單統計、新增、修改、刪除功能。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
